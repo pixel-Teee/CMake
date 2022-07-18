@@ -65,3 +65,6 @@ foreach(item 1;2;3)
 	message(${item})
 endforeach()
 
+foreach(item 1 2 3)
+	message(${item})
+endforeach()
