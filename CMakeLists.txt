@@ -68,3 +68,11 @@ endforeach()
 foreach(item 1 2 3)
 	message(${item})
 endforeach()
+
+set(A "")
+set(B "A") # save name of the variable
+message(${B})
+if(${B} STREQUAL "")
+	message("Value of A is empty string")
+endif()
+
