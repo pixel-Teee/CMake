@@ -60,3 +60,8 @@ foreach(x ${c})
 	message(" '${x}'")
 endforeach()
 #------quotes------
+
+foreach(item 1;2;3)
+	message(${item})
+endforeach()
+
