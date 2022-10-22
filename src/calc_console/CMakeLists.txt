@@ -29,5 +29,5 @@ Format(calc_console_static .)
 # Doxygen(calc_console src/calc_console)
 
 add_executable(calc_console bootstrap.cpp) # bootstrap executable
+target_compile_definitions(calc_console PRIVATE -DIMPORT_DLL)
 target_link_libraries(calc_console calc_console_static) # contains calc_console_static include directories
-
