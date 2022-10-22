@@ -1,6 +1,2 @@
 build/
-
-*.exe
-*.dll
-*.so
-*.a
+package/
