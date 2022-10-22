@@ -7,11 +7,11 @@
 #define CALCAPI __declspec(dllimport)
 #endif
 #else
-#define CALCAPI 
+#define CALCAPI
 #endif
 
 namespace Calc {
-    CALCAPI int Sum(int a, int b);//sum declare
-   
-    CALCAPI int Multiply(int a, int b);//multiply declare
+CALCAPI int Sum(int a, int b); // sum declare
+
+CALCAPI int Multiply(int a, int b); // multiply declare
 } // namespace Calc

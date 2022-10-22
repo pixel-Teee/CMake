@@ -23,8 +23,8 @@ target_compile_definitions(calc_shared PRIVATE -DBUILD_DLL)
 
 # ... testing and program analysis modules
 # ... documentation generation
-include(Coverage)
-CleanCoverage(calc_static)
+# include(Coverage)
+# CleanCoverage(calc_static)
 include(Format)
 Format(calc_static .)
 # include(CppCheck)
